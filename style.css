@@ -1,0 +1,67 @@
+*{
+    margin-top: 0;
+    padding: 0;
+      background-color: #09090b;
+}
+
+#title{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgb(230, 201, 201);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+}
+
+#answer{
+    background-color: rgb(252, 233, 55);
+    height: 90px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container1{
+    border: 2px solid rgb(11, 11, 64); 
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.container2 button{
+    color: rgb(255, 255, 255);
+    height : 75px;
+    width : 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: 10px solid black;
+    border-radius: 30px;;
+    box-shadow: 0.1px 0.1px 0.1px gray;
+}
+
+.operator{
+    background-color: rgb(250, 154, 0);
+}
+
+#clear{
+    background-color: rgb(243, 95, 30);
+}
+
+#equal{
+    background-color: rgb(133, 181, 76);
+}
+
+.number{
+    background-color: rgb(49, 169, 246);
+}
